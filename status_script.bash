@@ -2,7 +2,7 @@
 
 IP=$(ifconfig 2>/dev/null | grep "inet " | sed 's/netmask.*$//' | grep -v '127.0.0.1' | awk '{print $2}')
 UPTIME=$(uptime -p | cut -d" " -f2-)
-PORT="80"
+PORT="8080"
 USER_Name=$(whoami)
 OS=$(uname -o)
 
