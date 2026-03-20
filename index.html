@@ -51,6 +51,11 @@
         color: #00f0ff;
         text-shadow: 0 0 6px #00f0ff;
     }
+
+    a {
+	text-decoration: none;
+	color: inherit;
+    }
 </style>
 
 </head>
@@ -69,6 +74,10 @@
         <div>Current User:<p id="Operator"></p></div>
         
 	<div>Operating System: <p id="Operating_System"></p></div>
+    
+	<div>
+	  <a href="">Wiki</a>
+	</div>
     </div>
 
     <script>
@@ -107,11 +116,11 @@
 
         fetchJSONData();
 
-        //console.log(data.IP);
-        //console.log(data.Uptime);
-        //console.log(data['Port Number']);
-        //console.log(data.Operator);
-        // console.log(data['Operating System']);
+
+
+
+
+
     </script>
 </body>
 </html>
